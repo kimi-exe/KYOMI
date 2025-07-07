@@ -53,12 +53,12 @@ export default function RootLayout({
 						</svg>
 						<Nav.Root className="col-span-3 max-md:hidden">
 							<Nav.Item active={true}>Home</Nav.Item>
-							<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
+							<a href="https://www.instagram.com/bafsdelc.college/" target="_blank" rel="noopener noreferrer">
 								<Nav.Item>Instagram</Nav.Item>
 							</a>
-							<Nav.Item>Artists</Nav.Item>
-							<Nav.Item>Events</Nav.Item>
-							<Nav.Item>Visit</Nav.Item>
+							<a href="https://www.facebook.com/bafsdelc.college" target="_blank" rel="noopener noreferrer">
+								<Nav.Item>facebook</Nav.Item>
+							</a>
 						</Nav.Root>
 
 						<button className="cursor-not-allowed justify-self-end">
