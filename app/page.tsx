@@ -168,7 +168,7 @@ export default function Home() {
 				ref={sectionRefs.current[0]}
 				onScrollProgress={makeOnScrollProgress(0)}
 			>
-				Beloved freshers, we extend to you a heartfelt welcome to BAFSD English Language Club-College, a vibrant community where connections deepen, ideas ignite, and indelible memories are forged. As we look back at the cherished memories we've created together, we can't wait for you to be a part of our journey.
+				Beloved freshers, we extend to you a heartfelt welcome to BAFSD English Language Club-College, a vibrant community where connections deepen, ideas ignite, and indelible memories are forged. As we look back at the cherished memories weve created together, we cant wait for you to be a part of our journey.
 			</BottomAlignedSection>
 			<LeftAlignedSection
 				id="alexandros-of-antioch"
@@ -179,7 +179,7 @@ export default function Home() {
 						title: 'Girlboss',
 						content: (
 							<>
-That is direct quote from the book 'Grilboss', the book that started it all & made the term such a vital part of the internet. But if you have been living under a rock for the past few years then you might not have a clue what we're talking about. Let us do the honors, of introducing to the history of the term 'Girlboss' and its evolution from internet's favorite term for eminent women to the creator of the term itself tweeting".
+That is direct quote from the book Grilboss, the book that started it all & made the term such a vital part of the internet. But if you have been living under a rock for the past few years then you might not have a clue what were talking about. Let us do the honors, of introducing to the history of the term Girlboss and its evolution from internets favorite term for eminent women to the creator of the term itself tweeting.
 							</>
 						)
 					},
@@ -187,7 +187,7 @@ That is direct quote from the book 'Grilboss', the book that started it all & ma
 						title: 'Epnoyms',
 						content: (
 							<>
-								Epnoyms are the words that terrorized our vocabulary despite originally being names or titles for people or brands. Eponyms are basically created to make things easy for us, it's almost like a shortcut! And this is not even exclusive to only literature, it's prevalent in all sectors of life such as science, medicine, food and art.
+								Epnoyms are the words that terrorized our vocabulary despite originally being names or titles for people or brands. Eponyms are basically created to make things easy for us, its almost like a shortcut! And this is not even exclusive to only literature, its prevalent in all sectors of life such as science, medicine, food and art.
 							</>
 						)
 					},
@@ -208,13 +208,13 @@ Adjectives enhance writing with vividness and description, offering nuanced deta
 				onScrollProgress={makeOnScrollProgress(2)}
 				content1={
 					<>
-This won’t just be a session—it's a tribute to the art of language and communication. Be part of a memorable experience! * Seize the chance to sharpen your communication skills!
+This won’t just be a session—its a tribute to the art of language and communication. Be part of a memorable experience!  Seize the chance to sharpen your communication skills!
 42w
 					</>
 				}
 				content2={
 					<>
-For GenZ, scrolling isn’t just a habit; it’s a (not a crime). Gen Z is rewriting the rules, blending digital and real worlds. 
+For GenZ, scrolling isnt just a habit; its a not a crime. Gen Z is rewriting the rules, blending digital and real worlds. 
 					</>
 				}
 			/>
