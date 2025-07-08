@@ -139,7 +139,7 @@ export default function Home() {
 				</motion.div>
 			</Suspense>
 			<TOC.Root className="max-guides-4:hidden">
-				<TOC.Item title="Museum of Ancient Art" href="#" sectionRef={sectionRefs.current[0]} />
+				<TOC.Item title="welcome to BAFSD English Language Club-College" href="#" sectionRef={sectionRefs.current[0]} />
 				<TOC.Item
 					title="Alexandros of Antioch"
 					href="#alexandros-of-antioch"
@@ -163,14 +163,12 @@ export default function Home() {
 			</TOC.Root>
 
 			<BottomAlignedSection
-				title="Museum of Ancient Art"
+				title="English Language Club"
 				TitleTag="h1"
 				ref={sectionRefs.current[0]}
 				onScrollProgress={makeOnScrollProgress(0)}
 			>
-				History and creativity converge to tell the captivating stories of civilizations long past.
-				Our collection, ranging from majestic sculptures to intricate pottery, offers a glimpse into
-				the artistic achievements and cultural expressions of ancient societies.
+				Beloved freshers, we extend to you a heartfelt welcome to BAFSD English Language Club-College, a vibrant community where connections deepen, ideas ignite, and indelible memories are forged. As we look back at the cherished memories we've created together, we can't wait for you to be a part of our journey.
 			</BottomAlignedSection>
 			<LeftAlignedSection
 				id="alexandros-of-antioch"
@@ -178,51 +176,45 @@ export default function Home() {
 				onScrollProgress={makeOnScrollProgress(1)}
 				items={[
 					{
-						title: 'Alexandros of Antioch',
+						title: 'Girlboss',
 						content: (
 							<>
-								Alexandros of Antioch was an ancient Greek sculptor best known for creating the
-								famous statue &quot;Venus de Milo,&quot; discovered on the island of Milos in 1820.
+That is direct quote from the book '𝘎𝘪𝘳𝘭𝘣𝘰𝘴𝘴', the book that started it all & made the term such a vital part of the internet. But if you have been living under a rock for the past few years then you might not have a clue what we're talking about. Let us do the honors, of introducing to the history of the term 'Girlboss' and its evolution from internet's favorite term for eminent women to the creator of the term itself tweeting "𝘗𝘭𝘦𝘢𝘴𝘦 𝘴𝘵𝘰𝘱 𝘶𝘴𝘪𝘯𝘨 𝘵𝘩𝘦 𝘸𝘰𝘳𝘥 𝘎𝘪𝘳𝘭𝘣𝘰𝘴𝘴 𝘵𝘩𝘢𝘯𝘬 𝘺𝘰𝘶".
 							</>
 						)
 					},
 					{
-						title: '203 cm (80 in)',
+						title: 'Epnoyms',
 						content: (
 							<>
-								The height of the statue is notable for its impressive scale, reflecting the
-								grandeur and idealized proportions characteristic of Hellenistic sculpture.
+								Epnoyms are the words that terrorized our vocabulary despite originally being names or titles for people or brands. Eponyms are basically created to make things easy for us, it's almost like a shortcut! And this is not even exclusive to only literature, it's prevalent in all sectors of life such as science, medicine, food and art.
 							</>
 						)
 					},
 					{
-						title: 'Island of Melos',
+						title: 'age of adjectives',
 						content: (
 							<>
-								The Venus de Milo was discovered in 1820 by a Greek farmer named Yorgos Kentrotas on
-								the island of Milos, and it quickly became one of the most celebrated examples of
-								ancient Greek sculpture.
+Adjectives enhance writing with vividness and description, offering nuanced details about the nouns they modify. They imbue sentences with varied meanings depending on context, showing their adaptability. When we characterize versatility as an adjective, it signifies its ability to thrive in various contexts, effectively portraying a range of qualities.
 							</>
 						)
 					}
 				]}
 			/>
 			<BottomAlignedSection2
-				title="Discovery of a mutilated masterpiece"
+				title="Immerse yourself in inspiring speeches"
 				id="discovery-of-a-mutilated-masterpiece"
 				ref={sectionRefs.current[2]}
 				onScrollProgress={makeOnScrollProgress(2)}
 				content1={
 					<>
-						A farmer named Yorgos Kentrotas found the statue while digging in his field on the Greek
-						island of Milos. He uncovered the statue in several pieces within a buried niche in the
-						ancient city ruins.
+This won’t just be a session—it's a tribute to the art of language and communication. Be part of a memorable experience! * Seize the chance to sharpen your communication skills!
+42w
 					</>
 				}
 				content2={
 					<>
-						Olivier Voutier, a French sailor with an interest in archaeology, observed the discovery
-						and encouraged Yorgos to keep digging.
+For GenZ, scrolling isn’t just a habit; it’s a 𝐥𝐢𝐟𝐞𝐬𝐭𝐲𝐥𝐞 (not a crime). Gen Z is rewriting the rules, blending digital and real worlds. 
 					</>
 				}
 			/>
@@ -256,14 +248,12 @@ export default function Home() {
 				]}
 			/>
 			<BottomAlignedSectionWithIntro
-				title="An enigmatic icon"
+				title="turn in a story like"
 				id="an-enigmatic-icon"
 				ref={sectionRefs.current[4]}
 				onScrollProgress={makeOnScrollProgress(4)}
 			>
-				Renowned for its classical beauty and the mystery of its missing arms, the Venus de Milo
-				captivates millions of admirers each year. This iconic sculpture has become a centerpiece of
-				the Louvre Museum, symbolizing the artistic brilliance of ancient Greece.
+Unreliable narrators are the literary equivalent of a compass gone rogue, twisting the truth to suit their agenda. They exist not just in fiction, but also in memoirs warped by hindsight or news reports with a specific slant.
 			</BottomAlignedSectionWithIntro>
 		</>
 	)
