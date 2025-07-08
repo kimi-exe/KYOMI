@@ -179,7 +179,7 @@ export default function Home() {
 						title: 'Girlboss',
 						content: (
 							<>
-That is direct quote from the book '𝘎𝘪𝘳𝘭𝘣𝘰𝘴𝘴', the book that started it all & made the term such a vital part of the internet. But if you have been living under a rock for the past few years then you might not have a clue what we're talking about. Let us do the honors, of introducing to the history of the term 'Girlboss' and its evolution from internet's favorite term for eminent women to the creator of the term itself tweeting "𝘗𝘭𝘦𝘢𝘴𝘦 𝘴𝘵𝘰𝘱 𝘶𝘴𝘪𝘯𝘨 𝘵𝘩𝘦 𝘸𝘰𝘳𝘥 𝘎𝘪𝘳𝘭𝘣𝘰𝘴𝘴 𝘵𝘩𝘢𝘯𝘬 𝘺𝘰𝘶".
+That is direct quote from the book 'Grilboss', the book that started it all & made the term such a vital part of the internet. But if you have been living under a rock for the past few years then you might not have a clue what we're talking about. Let us do the honors, of introducing to the history of the term 'Girlboss' and its evolution from internet's favorite term for eminent women to the creator of the term itself tweeting".
 							</>
 						)
 					},
@@ -214,7 +214,7 @@ This won’t just be a session—it's a tribute to the art of language and commu
 				}
 				content2={
 					<>
-For GenZ, scrolling isn’t just a habit; it’s a 𝐥𝐢𝐟𝐞𝐬𝐭𝐲𝐥𝐞 (not a crime). Gen Z is rewriting the rules, blending digital and real worlds. 
+For GenZ, scrolling isn’t just a habit; it’s a (not a crime). Gen Z is rewriting the rules, blending digital and real worlds. 
 					</>
 				}
 			/>
