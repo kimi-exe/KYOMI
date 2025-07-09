@@ -195,10 +195,33 @@ That is direct quote from the book Grilboss, the book that started it all & made
 						title: 'age of adjectives',
 						content: (
 							<>
-Adjectives enhance writing with vividness and description, offering nuanced details about the nouns they modify. They imbue sentences with varied meanings depending on context, showing their adaptability. When we characterize versatility as an adjective, it signifies its ability to thrive in various contexts, effectively portraying a range of qualities.
+								Adjectives enhance writing with vividness and description, offering nuanced details about the nouns they modify. They imbue sentences with varied meanings depending on context, showing their adaptability. When we characterize versatility as an adjective, it signifies its ability to thrive in various contexts, effectively portraying a range of qualities.
+
+								<br />
+
+								<a
+									href="https://www.instagram.com/bafsdelc.college/"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="group relative inline-flex items-center justify-center mt-6 px-6 py-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-white font-semibold shadow-lg transition-all duration-300 hover:scale-105 hover:bg-white/10 hover:border-white/20"
+								>
+									<span className="absolute inset-0 rounded-full bg-gradient-to-r from-[#feda75] via-[#fa7e1e] via-[#d62976] via-[#962fbf] to-[#4f5bd5] opacity-40 blur-sm transition-all group-hover:opacity-60" />
+									<span className="relative z-10 flex items-center gap-2">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor"
+											viewBox="0 0 24 24"
+											className="w-5 h-5 text-white"
+										>
+											<path d="M7.75 2A5.75 5.75 0 002 7.75v8.5A5.75 5.75 0 007.75 22h8.5A5.75 5.75 0 0022 16.25v-8.5A5.75 5.75 0 0016.25 2h-8.5zm0 1.5h8.5A4.25 4.25 0 0120.5 7.75v8.5a4.25 4.25 0 01-4.25 4.25h-8.5A4.25 4.25 0 013.5 16.25v-8.5A4.25 4.25 0 017.75 3.5zm8.75 2.25a.75.75 0 100 1.5.75.75 0 000-1.5zM12 7a5 5 0 100 10 5 5 0 000-10zm0 1.5a3.5 3.5 0 110 7 3.5 3.5 0 010-7z" />
+										</svg>
+										<span>Follow us on Instagram</span>
+									</span>
+								</a>
 							</>
 						)
 					}
+					
 				]}
 			/>
 			<BottomAlignedSection2
@@ -242,9 +265,34 @@ For GenZ, scrolling isnt just a habit; its a not a crime. Gen Z is rewriting the
 								de Milo has been a subject of debate. Some scholars have suggested alternative
 								identifications, such as the sea goddess Amphitrite, who was also venerated on the
 								island of Milos.
+
+								<br />
+
+								<a
+									href="https://www.facebook.com/bafsdelc.college"
+									target="_blank"
+									rel="noopener noreferrer"
+									className="group relative inline-flex items-center justify-center mt-4 px-5 py-2.5 rounded-full bg-blue-500/20 border border-blue-300/30 backdrop-blur-sm text-white font-medium transition-all duration-300 hover:scale-105 hover:bg-blue-500/30 hover:border-blue-400/50"
+								>
+									<span className="absolute inset-0 rounded-full bg-blue-500 opacity-30 blur-sm transition-all group-hover:opacity-50" />
+									<span className="relative z-10 flex items-center gap-2">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="currentColor"
+											viewBox="0 0 24 24"
+											className="w-5 h-5 text-white"
+										>
+											<path d="M22 12c0-5.522-4.478-10-10-10S2 6.478 2 12c0 5.005 3.657 9.128 8.438 9.878v-6.988h-2.54v-2.89h2.54V9.797c0-2.507 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 17.005 22 12z" />
+										</svg>
+										<span>Visit Facebook</span>
+									</span>
+								</a>
 							</>
 						)
+						  
+						  
 					}
+					  
 				]}
 			/>
 			<BottomAlignedSectionWithIntro
