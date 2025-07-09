@@ -19,8 +19,8 @@ const cera = localFont({
 
 export const metadata: Metadata = {
 	title: {
-		template: '%s | Musée',
-		default: 'Musée' // a default is required when creating a template
+		template: '%s | elc',
+		default: 'elc' // a default is required when creating a template
 	}
 }
 
