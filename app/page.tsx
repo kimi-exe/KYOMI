@@ -169,6 +169,16 @@ export default function Home() {
 				onScrollProgress={makeOnScrollProgress(0)}
 			>
 				Beloved freshers, we extend to you a heartfelt welcome to BAFSD English Language Club-College, a vibrant community where connections deepen, ideas ignite, and indelible memories are forged. As we look back at the cherished memories weve created together, we cant wait for you to be a part of our journey.
+				<div className="mt-6">
+					<a
+						href="https://vocab-theta.vercel.app/"
+						target="_blank"
+						rel="noopener noreferrer"
+						className="inline-block px-6 py-3 rounded-full bg-white text-black font-semibold border-2 border-white transition-all duration-300 hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50"
+					>
+						Learn Vocab
+					</a>
+				</div>
 			</BottomAlignedSection>
 			<LeftAlignedSection
 				id="alexandros-of-antioch"
@@ -179,7 +189,7 @@ export default function Home() {
 						title: 'Girlboss',
 						content: (
 							<>
-That is direct quote from the book Grilboss, the book that started it all & made the term such a vital part of the internet. But if you have been living under a rock for the past few years then you might not have a clue what were talking about. Let us do the honors, of introducing to the history of the term Girlboss and its evolution from internets favorite term for eminent women to the creator of the term itself tweeting.
+								That is direct quote from the book Grilboss, the book that started it all & made the term such a vital part of the internet. But if you have been living under a rock for the past few years then you might not have a clue what were talking about. Let us do the honors, of introducing to the history of the term Girlboss and its evolution from internets favorite term for eminent women to the creator of the term itself tweeting.
 							</>
 						)
 					},
@@ -221,7 +231,7 @@ That is direct quote from the book Grilboss, the book that started it all & made
 							</>
 						)
 					}
-					
+
 				]}
 			/>
 			<BottomAlignedSection2
@@ -231,13 +241,13 @@ That is direct quote from the book Grilboss, the book that started it all & made
 				onScrollProgress={makeOnScrollProgress(2)}
 				content1={
 					<>
-This won’t just be a session—its a tribute to the art of language and communication. Be part of a memorable experience!  Seize the chance to sharpen your communication skills!
-42w
+						This won’t just be a session—its a tribute to the art of language and communication. Be part of a memorable experience!  Seize the chance to sharpen your communication skills!
+						42w
 					</>
 				}
 				content2={
 					<>
-For GenZ, scrolling isnt just a habit; its a not a crime. Gen Z is rewriting the rules, blending digital and real worlds. 
+						For GenZ, scrolling isnt just a habit; its a not a crime. Gen Z is rewriting the rules, blending digital and real worlds.
 					</>
 				}
 			/>
@@ -289,10 +299,10 @@ For GenZ, scrolling isnt just a habit; its a not a crime. Gen Z is rewriting the
 								</a>
 							</>
 						)
-						  
-						  
+
+
 					}
-					  
+
 				]}
 			/>
 			<BottomAlignedSectionWithIntro
@@ -301,7 +311,7 @@ For GenZ, scrolling isnt just a habit; its a not a crime. Gen Z is rewriting the
 				ref={sectionRefs.current[4]}
 				onScrollProgress={makeOnScrollProgress(4)}
 			>
-Unreliable narrators are the literary equivalent of a compass gone rogue, twisting the truth to suit their agenda. They exist not just in fiction, but also in memoirs warped by hindsight or news reports with a specific slant.
+				Unreliable narrators are the literary equivalent of a compass gone rogue, twisting the truth to suit their agenda. They exist not just in fiction, but also in memoirs warped by hindsight or news reports with a specific slant.
 			</BottomAlignedSectionWithIntro>
 		</>
 	)
@@ -333,9 +343,9 @@ function BottomAlignedSection({
 				<TitleTag className="col-span-2 font-serif ~text-5xl/8xl guides-4:col-span-2 guides-4:col-start-2 guides-5:col-span-3 guides-5:justify-self-end guides-5:text-right guides-5:~guides-5:~max-w-[20rem]/[28.75rem]">
 					{title}
 				</TitleTag>
-				<p className="col-span-2 max-w-prose justify-self-center text-sm text-white/70 guides-4:col-span-2 guides-4:col-start-2 guides-5:col-span-2 guides-5:~lg:~mt-8/16 guides-5:~lg:~p-4/8 guides-5:lg:col-span-1">
+				<div className="col-span-2 max-w-prose justify-self-center text-sm text-white/70 guides-4:col-span-2 guides-4:col-start-2 guides-5:col-span-2 guides-5:~lg:~mt-8/16 guides-5:~lg:~p-4/8 guides-5:lg:col-span-1">
 					{children}
-				</p>
+				</div>
 			</motion.div>
 		</Section>
 	)
