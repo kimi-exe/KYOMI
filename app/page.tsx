@@ -187,7 +187,7 @@ export default function Home() {
 				]}
 			/>			
 			<BottomAlignedSection
-				title="For Collectors"
+				title="For Collectors "
 				TitleTag="h1"
 				ref={sectionRefs.current[2]}
 				onScrollProgress={makeOnScrollProgress(2)}
