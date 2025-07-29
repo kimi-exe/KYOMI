@@ -36,7 +36,7 @@ export default function RootLayout({
 				style={{ '--header-h': 'calc(var(--header-py) * 2 + 1.375rem)' }}
 			>
 				<Guides />
-				<header className="fixed top-0 z-10 w-full py-[--header-py]">
+				{/* <header className="fixed top-0 z-10 w-full py-[--header-py]">
 					<div className="grid-guides container flex items-center justify-between gap-4 md:grid">
 						<Image
 							src="/logo.jpg"
@@ -78,7 +78,7 @@ export default function RootLayout({
 
 					</div>
 
-				</header>
+				</header> */}
 				{children}
 			</body>
 		</html>

@@ -67,7 +67,7 @@ const floatIntensities: Array<Vector3Tuple> = [
 ]
 
 const ZERO: Vector3Tuple = [0, 0, 0]
-
+ 
 const narrowQuery = `not (min-width: ${screens['guides-4']})`
 const narrow: Pick<MediaQueryList, 'matches'> =
 	typeof window === 'undefined' ? { matches: false } : window.matchMedia(narrowQuery)
@@ -162,141 +162,61 @@ export default function Home() {
 				/>
 			</TOC.Root>
 
+
 			<BottomAlignedSection
-				title="English Language Club"
+				title="Epoch Timeless Experience"
 				TitleTag="h1"
 				ref={sectionRefs.current[0]}
 				onScrollProgress={makeOnScrollProgress(0)}
 			>
-				Beloved freshers, we extend to you a heartfelt welcome to BAFSD English Language Club-College, a vibrant community where connections deepen, ideas ignite, and indelible memories are forged. As we look back at the cherished memories weve created together, we cant wait for you to be a part of our journey.
-				<div className="mt-6">
-					<a
-						href="https://vocab-theta.vercel.app/"
-						target="_blank"
-						rel="noopener noreferrer"
-						className="inline-block px-6 py-3 rounded-full bg-white text-black font-semibold border-2 border-white transition-all duration-300 hover:bg-black hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50"
-					>
-						Learn Vocab
-					</a>
-				</div>
-			</BottomAlignedSection>
-			<LeftAlignedSection
-				id="alexandros-of-antioch"
+				Step into Epoch, where every item has a story to tell. We specialize in handpicked vintage cameras and classic typewriters — each one a piece of living history. Whether you're a collector, an artist, or simply a lover of the analog soul, our collection brings back the charm of a bygone era.</BottomAlignedSection>
+	
+				<LeftAlignedSection
+				id="missing-arms-mystery"
 				ref={sectionRefs.current[1]}
 				onScrollProgress={makeOnScrollProgress(1)}
 				items={[
 					{
-						title: 'Girlboss',
+						title: 'Where Every Piece Has a Past',
 						content: (
 							<>
-								That is direct quote from the book Grilboss, the book that started it all & made the term such a vital part of the internet. But if you have been living under a rock for the past few years then you might not have a clue what were talking about. Let us do the honors, of introducing to the history of the term Girlboss and its evolution from internets favorite term for eminent women to the creator of the term itself tweeting.
-							</>
+								Each camera and typewriter we offer has a story — decades of use, travels, and untold moments. We don't just collect antiques; we restore memories. Holding one is like holding a piece of time, full of soul and character that no modern device can replicate.</>
 						)
 					},
-					{
-						title: 'Epnoyms',
-						content: (
-							<>
-								Epnoyms are the words that terrorized our vocabulary despite originally being names or titles for people or brands. Eponyms are basically created to make things easy for us, its almost like a shortcut! And this is not even exclusive to only literature, its prevalent in all sectors of life such as science, medicine, food and art.
-							</>
-						)
-					},
-					{
-						title: 'age of adjectives',
-						content: (
-							<>
-								Adjectives enhance writing with vividness and description, offering nuanced details about the nouns they modify. They imbue sentences with varied meanings depending on context, showing their adaptability. When we characterize versatility as an adjective, it signifies its ability to thrive in various contexts, effectively portraying a range of qualities.
-
-								<br />
-
-								<a
-									href="https://www.instagram.com/bafsdelc.college/"
-									target="_blank"
-									rel="noopener noreferrer"
-									className="group relative inline-flex items-center justify-center mt-6 px-6 py-3 rounded-full bg-white/5 border border-white/10 backdrop-blur-sm text-white font-semibold shadow-lg transition-all duration-300 hover:scale-105 hover:bg-white/10 hover:border-white/20"
-								>
-									<span className="absolute inset-0 rounded-full bg-gradient-to-r from-[#feda75] via-[#fa7e1e] via-[#d62976] via-[#962fbf] to-[#4f5bd5] opacity-40 blur-sm transition-all group-hover:opacity-60" />
-									<span className="relative z-10 flex items-center gap-2">
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											fill="currentColor"
-											viewBox="0 0 24 24"
-											className="w-5 h-5 text-white"
-										>
-											<path d="M7.75 2A5.75 5.75 0 002 7.75v8.5A5.75 5.75 0 007.75 22h8.5A5.75 5.75 0 0022 16.25v-8.5A5.75 5.75 0 0016.25 2h-8.5zm0 1.5h8.5A4.25 4.25 0 0120.5 7.75v8.5a4.25 4.25 0 01-4.25 4.25h-8.5A4.25 4.25 0 013.5 16.25v-8.5A4.25 4.25 0 017.75 3.5zm8.75 2.25a.75.75 0 100 1.5.75.75 0 000-1.5zM12 7a5 5 0 100 10 5 5 0 000-10zm0 1.5a3.5 3.5 0 110 7 3.5 3.5 0 010-7z" />
-										</svg>
-										<span>Follow us on Instagram</span>
-									</span>
-								</a>
-							</>
-						)
-					}
-
+					
 				]}
-			/>
-			<BottomAlignedSection2
-				title="Immerse yourself in inspiring speeches"
-				id="discovery-of-a-mutilated-masterpiece"
+			/>			
+			<BottomAlignedSection
+				title="For Collectors"
+				TitleTag="h1"
 				ref={sectionRefs.current[2]}
 				onScrollProgress={makeOnScrollProgress(2)}
-				content1={
-					<>
-						This won’t just be a session—its a tribute to the art of language and communication. Be part of a memorable experience!  Seize the chance to sharpen your communication skills!
-						42w
-					</>
-				}
-				content2={
-					<>
-						For GenZ, scrolling isnt just a habit; its a not a crime. Gen Z is rewriting the rules, blending digital and real worlds.
-					</>
-				}
-			/>
+			>
+				Whether you're a photographer chasing the perfect light leak or a writer who loves the rhythm of real keys, Epoch offers something for you. Our collection blends utility with nostalgia — perfect for the artist at heart or the collector who values authenticity.
+				</BottomAlignedSection>
+
 			<LeftAlignedSection
 				id="missing-arms-mystery"
 				ref={sectionRefs.current[3]}
 				onScrollProgress={makeOnScrollProgress(3)}
 				items={[
 					{
-						title: 'BAFSD ELC',
+						title: 'Vintage Typewriters',
 						content: (
 							<>
-								One of the most intriguing aspects of the Venus de Milo is its missing arms. When
-								the statue was found, it was already without its arms, which has led to much
-								speculation. It is believed that the arms were broken off either during its
-								discovery or in the centuries it lay buried.
+								There’s something deeply personal about typing on a vintage typewriter — each keystroke carries weight, intention, and rhythm. These machines weren’t just tools; they were companions to writers, poets, and thinkers of the past. From love letters to manuscripts, their keys have pressed out emotions, ideas, and revolutions.
 							</>
 						)
 					},
 					{
-						title: 'Controversial identification',
+						title: 'Analog Cameras',
 						content: (
 							<>
-								While widely accepted as a depiction of Aphrodite, the identification of the Venus
-								de Milo has been a subject of debate. Some scholars have suggested alternative
-								identifications, such as the sea goddess Amphitrite, who was also venerated on the
-								island of Milos.
+								Before digital pixels, there was film — raw, real, and full of soul. Vintage cameras capture more than just images; they capture feeling. Each frame is a deliberate moment, a pause in time crafted with care.
 
 								<br />
 
-								<a
-									href="https://www.facebook.com/bafsdelc.college"
-									target="_blank"
-									rel="noopener noreferrer"
-									className="group relative inline-flex items-center justify-center mt-4 px-5 py-2.5 rounded-full bg-blue-500/20 border border-blue-300/30 backdrop-blur-sm text-white font-medium transition-all duration-300 hover:scale-105 hover:bg-blue-500/30 hover:border-blue-400/50"
-								>
-									<span className="absolute inset-0 rounded-full bg-blue-500 opacity-30 blur-sm transition-all group-hover:opacity-50" />
-									<span className="relative z-10 flex items-center gap-2">
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											fill="currentColor"
-											viewBox="0 0 24 24"
-											className="w-5 h-5 text-white"
-										>
-											<path d="M22 12c0-5.522-4.478-10-10-10S2 6.478 2 12c0 5.005 3.657 9.128 8.438 9.878v-6.988h-2.54v-2.89h2.54V9.797c0-2.507 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562v1.875h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 17.005 22 12z" />
-										</svg>
-										<span>Visit Facebook</span>
-									</span>
-								</a>
+
 							</>
 						)
 
@@ -305,14 +225,23 @@ export default function Home() {
 
 				]}
 			/>
-			<BottomAlignedSectionWithIntro
-				title="turn in a story like"
-				id="an-enigmatic-icon"
+			<LeftAlignedSection
+				id="missing-arms-mystery"
 				ref={sectionRefs.current[4]}
 				onScrollProgress={makeOnScrollProgress(4)}
-			>
-				Unreliable narrators are the literary equivalent of a compass gone rogue, twisting the truth to suit their agenda. They exist not just in fiction, but also in memoirs warped by hindsight or news reports with a specific slant.
-			</BottomAlignedSectionWithIntro>
+				items={[
+					{
+						title: 'Timeless Tools for a Timeless Mindset',
+						content: (
+							<>
+								Cameras that don’t need charging. Typewriters that don’t need updates. Just you, your thoughts, and your craft. Epoch is more than a shop — it’s a mindset. One that values patience, texture, and truth in every click and every letter.</>
+						)
+					},
+					
+
+				]}
+			/>
+
 		</>
 	)
 }
