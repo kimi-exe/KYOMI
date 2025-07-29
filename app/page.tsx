@@ -169,7 +169,7 @@ export default function Home() {
 				ref={sectionRefs.current[0]}
 				onScrollProgress={makeOnScrollProgress(0)}
 			>
-				Step into Epoch, where every item has a story to tell. We specialize in handpicked vintage cameras and classic typewriters — each one a piece of living history. Whether you're a collector, an artist, or simply a lover of the analog soul, our collection brings back the charm of a bygone era.</BottomAlignedSection>
+				Step into Epoch, where every item has a story to tell. We specialize in handpicked vintage cameras and classic typewriters — each one a piece of living history. Whether youre a collector, an artist, or simply a lover of the analog soul, our collection brings back the charm of a bygone era.</BottomAlignedSection>
 	
 				<LeftAlignedSection
 				id="missing-arms-mystery"
@@ -180,7 +180,7 @@ export default function Home() {
 						title: 'Where Every Piece Has a Past',
 						content: (
 							<>
-								Each camera and typewriter we offer has a story — decades of use, travels, and untold moments. We don't just collect antiques; we restore memories. Holding one is like holding a piece of time, full of soul and character that no modern device can replicate.</>
+								Each camera and typewriter we offer has a story — decades of use, travels, and untold moments. We dont just collect antiques; we restore memories. Holding one is like holding a piece of time, full of soul and character that no modern device can replicate.</>
 						)
 					},
 					
@@ -192,7 +192,7 @@ export default function Home() {
 				ref={sectionRefs.current[2]}
 				onScrollProgress={makeOnScrollProgress(2)}
 			>
-				Whether you're a photographer chasing the perfect light leak or a writer who loves the rhythm of real keys, Epoch offers something for you. Our collection blends utility with nostalgia — perfect for the artist at heart or the collector who values authenticity.
+				Whether youre a photographer chasing the perfect light leak or a writer who loves the rhythm of real keys, Epoch offers something for you. Our collection blends utility with nostalgia — perfect for the artist at heart or the collector who values authenticity.
 				</BottomAlignedSection>
 
 			<LeftAlignedSection
